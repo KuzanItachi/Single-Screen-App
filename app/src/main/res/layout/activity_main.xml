@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:src="@drawable/tokyo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/anime_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Anime World"
+        android:textColor="#01579B"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Near Barakhamba Road \nNew Delhi \nPincode:110001"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FAFAFA"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/address_view"
+        android:fontFamily="sans-serif-light"
+        android:text="Address"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" abc@gmail.com"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        />
+
+
+    <TextView
+        android:id="@+id/phn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 1234567890"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/email"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <ImageView
+        android:id="@+id/email_icon"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toLeftOf="@id/email"
+        android:src="@drawable/email_icon" />
+
+
+    <ImageView
+        android:id="@+id/phn_photo"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_above="@id/email_icon"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toLeftOf="@id/phn"
+        android:src="@drawable/phone_icon2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="224dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Are you a anime fan! Do visit our store. We have a lot of anime related products and merchandise for you."
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="1dp"
+        android:text="Contact Us"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
